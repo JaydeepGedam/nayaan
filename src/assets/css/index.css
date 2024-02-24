@@ -1,0 +1,18 @@
+.responsive-player {
+  max-width: 500px;
+  max-height: 500px;
+}
+
+@media screen and (max-width: 768px) {
+  .responsive-player {
+    max-width: 90vw;
+    max-height: 90vw; /* Maintain aspect ratio */
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .responsive-player {
+    max-width: 80vw;
+    max-height: 80vw; /* Maintain aspect ratio */
+  }
+}
